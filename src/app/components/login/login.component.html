@@ -1,0 +1,13 @@
+
+@if (isLogin()){
+    <div>
+      Name: {{ user().name}} <br />
+      Email: {{ user().username}} <br  />
+      User Name: {{ user().username}} <br />
+      Auth Type: {{ user().authorityType}} <br />
+      <button (click)="onLogOut()">logout</button>
+    </div>
+} @else {
+  <button (click)="onLogin()">login</button>
+}
+
