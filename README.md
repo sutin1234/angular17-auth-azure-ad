@@ -1,4 +1,4 @@
-# Angular17MsalAad
+# Angular17 Authentication Azure AD
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.0.
 
